@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b2ed7d1c9b2212641dc6a0cb23e2bba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b2ed7d1c9b2212641dc6a0cb23e2bba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b2ed7d1c9b2212641dc6a0cb23e2bba = L.map(
+                "map_8b2ed7d1c9b2212641dc6a0cb23e2bba",
+                {
+                    center: [28.0, -80.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf3c567c8f2d72159c1265a6dc87a812 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cf3c567c8f2d72159c1265a6dc87a812.addTo(map_8b2ed7d1c9b2212641dc6a0cb23e2bba);
+        
+    
+            var marker_e854031ae778aaeb9bafcfd0061034df = L.marker(
+                [9.0477206, 167.7431292],
+                {
+}
+            ).addTo(map_8b2ed7d1c9b2212641dc6a0cb23e2bba);
+        
+    
+        var popup_76544343873f2388a604800effbe8912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d210062a868da5b4dbc3f6d8ab63762b = $(`<div id="html_d210062a868da5b4dbc3f6d8ab63762b" style="width: 100.0%; height: 100.0%;">Kwajalein Atoll - Omelek Island</div>`)[0];
+                popup_76544343873f2388a604800effbe8912.setContent(html_d210062a868da5b4dbc3f6d8ab63762b);
+            
+        
+
+        marker_e854031ae778aaeb9bafcfd0061034df.bindPopup(popup_76544343873f2388a604800effbe8912)
+        ;
+
+        
+    
+    
+            var marker_96a86a91d3f030e615f27728b21b674e = L.marker(
+                [28.5618571, -80.577366],
+                {
+}
+            ).addTo(map_8b2ed7d1c9b2212641dc6a0cb23e2bba);
+        
+    
+        var popup_db7f44fcebb3a784a20e86b7a3d13258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e70766de3ae0040cf279f55d2cc069e = $(`<div id="html_7e70766de3ae0040cf279f55d2cc069e" style="width: 100.0%; height: 100.0%;">CCSFS SLC 40 - Cape Canaveral</div>`)[0];
+                popup_db7f44fcebb3a784a20e86b7a3d13258.setContent(html_7e70766de3ae0040cf279f55d2cc069e);
+            
+        
+
+        marker_96a86a91d3f030e615f27728b21b674e.bindPopup(popup_db7f44fcebb3a784a20e86b7a3d13258)
+        ;
+
+        
+    
+    
+            var marker_7daf8c5c2c878bac534a0679300361bd = L.marker(
+                [34.632093, -120.610829],
+                {
+}
+            ).addTo(map_8b2ed7d1c9b2212641dc6a0cb23e2bba);
+        
+    
+        var popup_da82e7e819fa8e282e608f547ad19816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfff705b669fcd4cad0427c3fd5cdc7e = $(`<div id="html_dfff705b669fcd4cad0427c3fd5cdc7e" style="width: 100.0%; height: 100.0%;">VAFB SLC 4E - Vandenberg Space Force Base</div>`)[0];
+                popup_da82e7e819fa8e282e608f547ad19816.setContent(html_dfff705b669fcd4cad0427c3fd5cdc7e);
+            
+        
+
+        marker_7daf8c5c2c878bac534a0679300361bd.bindPopup(popup_da82e7e819fa8e282e608f547ad19816)
+        ;
+
+        
+    
+    
+            var marker_6b63ef3b82255e6cbd025ccb0ad0ef37 = L.marker(
+                [28.6080585, -80.6039558],
+                {
+}
+            ).addTo(map_8b2ed7d1c9b2212641dc6a0cb23e2bba);
+        
+    
+        var popup_e9cc20a3fad2f6f47dcdc81c29da69eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c1d6688bdc6a2cbe1e42e7fab52f57e = $(`<div id="html_2c1d6688bdc6a2cbe1e42e7fab52f57e" style="width: 100.0%; height: 100.0%;">KSC LC 39A - Cape Canaveral</div>`)[0];
+                popup_e9cc20a3fad2f6f47dcdc81c29da69eb.setContent(html_2c1d6688bdc6a2cbe1e42e7fab52f57e);
+            
+        
+
+        marker_6b63ef3b82255e6cbd025ccb0ad0ef37.bindPopup(popup_e9cc20a3fad2f6f47dcdc81c29da69eb)
+        ;
+
+        
+    
+</script>
+</html>
